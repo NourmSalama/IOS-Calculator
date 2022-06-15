@@ -1,19 +1,20 @@
-//
-//  ViewController.swift
-//  CaclApp
-//
-//  Created by Nour on 15/06/2022.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func clearButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func devideButton(_ sender: Any) {
+    }
+    
 }
 
