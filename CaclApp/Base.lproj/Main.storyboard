@@ -106,6 +106,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ThreeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z3k-7i-71S"/>
+                                    <action selector="threeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftS-d0-tEo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1U-iC-GB0">
@@ -224,7 +225,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="eightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOq-rW-poM"/>
                                     <action selector="eigthButotn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6J-dr-ePb"/>
+                                    <action selector="eigthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WDY-we-GGh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZg-iH-OEP">

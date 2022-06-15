@@ -44,7 +44,6 @@ class ViewController: UIViewController
         function = "-"
         first = userInput
         userInput = ""
-
     }
     
     @IBAction func addButton(_ sender: Any)
@@ -52,7 +51,6 @@ class ViewController: UIViewController
         function = "+"
         first = userInput
         userInput = ""
-
     }
     
     @IBAction func equalButton(_ sender: Any)
@@ -60,8 +58,8 @@ class ViewController: UIViewController
         second = userInput
         var firstInput = 0.0
         var secondInput = 0.0
-        firstInput = first as! Double(first)!
-        secondInput = second as! Double(second)!
+        firstInput = Double(first)!
+        secondInput = Double(second)!
         
         if(function == "+") {
             result = firstInput + secondInput
@@ -75,7 +73,7 @@ class ViewController: UIViewController
             result = firstInput * secondInput
             calcDiplay.text = String(result)
         }
-        else (function == "/") {
+        else {
             result = firstInput / secondInput
             calcDiplay.text = String(result)
         }
@@ -84,12 +82,15 @@ class ViewController: UIViewController
     
     @IBAction func decimalButton(_ sender: Any)
     {
-        
+        userInput += ","
+        calcDiplay.text! += ","
     }
     
     @IBAction func zeroButton(_ sender: Any)
     {
-        
+        calcDiplay.text = ""
+        userInput += "0"
+        calcDiplay.text = userInput
     }
     
     @IBAction func oneButton(_ sender: Any)
@@ -140,8 +141,8 @@ class ViewController: UIViewController
         userInput += "7"
         calcDiplay.text! += userInput
     }
-    
-    @IBAction func eightButton(_ sender: Any)
+  
+    @IBAction func eigthButton(_ sender: Any)
     {
         calcDiplay.text = ""
         userInput += "8"
