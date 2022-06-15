@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB350CB52859D8D300903FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CB42859D8D300903FEA /* AppDelegate.swift */; };
+		FB350CB72859D8D300903FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CB62859D8D300903FEA /* SceneDelegate.swift */; };
+		FB350CB92859D8D300903FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CB82859D8D300903FEA /* ViewController.swift */; };
+		FB350CBC2859D8D300903FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB350CBA2859D8D300903FEA /* Main.storyboard */; };
+		FB350CBF2859D8D300903FEA /* CaclApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB350CBD2859D8D300903FEA /* CaclApp.xcdatamodeld */; };
+		FB350CC12859D8D400903FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB350CC02859D8D400903FEA /* Assets.xcassets */; };
+		FB350CC42859D8D400903FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB350CC22859D8D400903FEA /* LaunchScreen.storyboard */; };
+		FB350CCF2859D8D400903FEA /* CaclAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CCE2859D8D400903FEA /* CaclAppTests.swift */; };
+		FB350CD92859D8D400903FEA /* CaclAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CD82859D8D400903FEA /* CaclAppUITests.swift */; };
+		FB350CDB2859D8D400903FEA /* CaclAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB350CDA2859D8D400903FEA /* CaclAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB350CCB2859D8D400903FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB350CA92859D8D300903FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB350CB02859D8D300903FEA;
+			remoteInfo = CaclApp;
+		};
+		FB350CD52859D8D400903FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB350CA92859D8D300903FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB350CB02859D8D300903FEA;
+			remoteInfo = CaclApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB350CB12859D8D300903FEA /* CaclApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaclApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB350CB42859D8D300903FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB350CB62859D8D300903FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB350CB82859D8D300903FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB350CBB2859D8D300903FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB350CBE2859D8D300903FEA /* CaclApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaclApp.xcdatamodel; sourceTree = "<group>"; };
+		FB350CC02859D8D400903FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB350CC32859D8D400903FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB350CC52859D8D400903FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB350CCA2859D8D400903FEA /* CaclAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaclAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB350CCE2859D8D400903FEA /* CaclAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaclAppTests.swift; sourceTree = "<group>"; };
+		FB350CD42859D8D400903FEA /* CaclAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaclAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB350CD82859D8D400903FEA /* CaclAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaclAppUITests.swift; sourceTree = "<group>"; };
+		FB350CDA2859D8D400903FEA /* CaclAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaclAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB350CAE2859D8D300903FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CC72859D8D400903FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CD12859D8D400903FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB350CA82859D8D300903FEA = {
+			isa = PBXGroup;
+			children = (
+				FB350CB32859D8D300903FEA /* CaclApp */,
+				FB350CCD2859D8D400903FEA /* CaclAppTests */,
+				FB350CD72859D8D400903FEA /* CaclAppUITests */,
+				FB350CB22859D8D300903FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB350CB22859D8D300903FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB350CB12859D8D300903FEA /* CaclApp.app */,
+				FB350CCA2859D8D400903FEA /* CaclAppTests.xctest */,
+				FB350CD42859D8D400903FEA /* CaclAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB350CB32859D8D300903FEA /* CaclApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB350CB42859D8D300903FEA /* AppDelegate.swift */,
+				FB350CB62859D8D300903FEA /* SceneDelegate.swift */,
+				FB350CB82859D8D300903FEA /* ViewController.swift */,
+				FB350CBA2859D8D300903FEA /* Main.storyboard */,
+				FB350CC02859D8D400903FEA /* Assets.xcassets */,
+				FB350CC22859D8D400903FEA /* LaunchScreen.storyboard */,
+				FB350CC52859D8D400903FEA /* Info.plist */,
+				FB350CBD2859D8D300903FEA /* CaclApp.xcdatamodeld */,
+			);
+			path = CaclApp;
+			sourceTree = "<group>";
+		};
+		FB350CCD2859D8D400903FEA /* CaclAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB350CCE2859D8D400903FEA /* CaclAppTests.swift */,
+			);
+			path = CaclAppTests;
+			sourceTree = "<group>";
+		};
+		FB350CD72859D8D400903FEA /* CaclAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB350CD82859D8D400903FEA /* CaclAppUITests.swift */,
+				FB350CDA2859D8D400903FEA /* CaclAppUITestsLaunchTests.swift */,
+			);
+			path = CaclAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB350CB02859D8D300903FEA /* CaclApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB350CDE2859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclApp" */;
+			buildPhases = (
+				FB350CAD2859D8D300903FEA /* Sources */,
+				FB350CAE2859D8D300903FEA /* Frameworks */,
+				FB350CAF2859D8D300903FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaclApp;
+			productName = CaclApp;
+			productReference = FB350CB12859D8D300903FEA /* CaclApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB350CC92859D8D400903FEA /* CaclAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB350CE12859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclAppTests" */;
+			buildPhases = (
+				FB350CC62859D8D400903FEA /* Sources */,
+				FB350CC72859D8D400903FEA /* Frameworks */,
+				FB350CC82859D8D400903FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB350CCC2859D8D400903FEA /* PBXTargetDependency */,
+			);
+			name = CaclAppTests;
+			productName = CaclAppTests;
+			productReference = FB350CCA2859D8D400903FEA /* CaclAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB350CD32859D8D400903FEA /* CaclAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB350CE42859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclAppUITests" */;
+			buildPhases = (
+				FB350CD02859D8D400903FEA /* Sources */,
+				FB350CD12859D8D400903FEA /* Frameworks */,
+				FB350CD22859D8D400903FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB350CD62859D8D400903FEA /* PBXTargetDependency */,
+			);
+			name = CaclAppUITests;
+			productName = CaclAppUITests;
+			productReference = FB350CD42859D8D400903FEA /* CaclAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB350CA92859D8D300903FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FB350CB02859D8D300903FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FB350CC92859D8D400903FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FB350CB02859D8D300903FEA;
+					};
+					FB350CD32859D8D400903FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FB350CB02859D8D300903FEA;
+					};
+				};
+			};
+			buildConfigurationList = FB350CAC2859D8D300903FEA /* Build configuration list for PBXProject "CaclApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB350CA82859D8D300903FEA;
+			productRefGroup = FB350CB22859D8D300903FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB350CB02859D8D300903FEA /* CaclApp */,
+				FB350CC92859D8D400903FEA /* CaclAppTests */,
+				FB350CD32859D8D400903FEA /* CaclAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB350CAF2859D8D300903FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB350CC42859D8D400903FEA /* LaunchScreen.storyboard in Resources */,
+				FB350CC12859D8D400903FEA /* Assets.xcassets in Resources */,
+				FB350CBC2859D8D300903FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CC82859D8D400903FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CD22859D8D400903FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB350CAD2859D8D300903FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB350CBF2859D8D300903FEA /* CaclApp.xcdatamodeld in Sources */,
+				FB350CB92859D8D300903FEA /* ViewController.swift in Sources */,
+				FB350CB52859D8D300903FEA /* AppDelegate.swift in Sources */,
+				FB350CB72859D8D300903FEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CC62859D8D400903FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB350CCF2859D8D400903FEA /* CaclAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB350CD02859D8D400903FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB350CD92859D8D400903FEA /* CaclAppUITests.swift in Sources */,
+				FB350CDB2859D8D400903FEA /* CaclAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB350CCC2859D8D400903FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB350CB02859D8D300903FEA /* CaclApp */;
+			targetProxy = FB350CCB2859D8D400903FEA /* PBXContainerItemProxy */;
+		};
+		FB350CD62859D8D400903FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB350CB02859D8D300903FEA /* CaclApp */;
+			targetProxy = FB350CD52859D8D400903FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB350CBA2859D8D300903FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB350CBB2859D8D300903FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB350CC22859D8D400903FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB350CC32859D8D400903FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB350CDC2859D8D400903FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB350CDD2859D8D400903FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB350CDF2859D8D400903FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaclApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB350CE02859D8D400903FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaclApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB350CE22859D8D400903FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaclApp.app/CaclApp";
+			};
+			name = Debug;
+		};
+		FB350CE32859D8D400903FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaclApp.app/CaclApp";
+			};
+			name = Release;
+		};
+		FB350CE52859D8D400903FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaclApp;
+			};
+			name = Debug;
+		};
+		FB350CE62859D8D400903FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nour.CaclAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaclApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB350CAC2859D8D300903FEA /* Build configuration list for PBXProject "CaclApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB350CDC2859D8D400903FEA /* Debug */,
+				FB350CDD2859D8D400903FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB350CDE2859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB350CDF2859D8D400903FEA /* Debug */,
+				FB350CE02859D8D400903FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB350CE12859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB350CE22859D8D400903FEA /* Debug */,
+				FB350CE32859D8D400903FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB350CE42859D8D400903FEA /* Build configuration list for PBXNativeTarget "CaclAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB350CE52859D8D400903FEA /* Debug */,
+				FB350CE62859D8D400903FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB350CBD2859D8D300903FEA /* CaclApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB350CBE2859D8D300903FEA /* CaclApp.xcdatamodel */,
+			);
+			currentVersion = FB350CBE2859D8D300903FEA /* CaclApp.xcdatamodel */;
+			path = CaclApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB350CA92859D8D300903FEA /* Project object */;
+}
