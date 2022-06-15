@@ -92,7 +92,7 @@ class ViewController: UIViewController
         userInput += "0"
         calcDiplay.text = userInput
     }
-    
+
     @IBAction func oneButton(_ sender: Any)
     {
         calcDiplay.text = ""
@@ -107,8 +107,8 @@ class ViewController: UIViewController
         calcDiplay.text! += userInput
     }
     
-    @IBAction func threeButton(_ sender: Any)
-    {
+  
+    @IBAction func threeButton(_ sender: Any) {
         calcDiplay.text = ""
         userInput += "3"
         calcDiplay.text! += userInput
@@ -141,8 +141,9 @@ class ViewController: UIViewController
         userInput += "7"
         calcDiplay.text! += userInput
     }
-  
-    @IBAction func eigthButton(_ sender: Any)
+
+    
+    @IBAction func eightButton(_ sender: Any)
     {
         calcDiplay.text = ""
         userInput += "8"
